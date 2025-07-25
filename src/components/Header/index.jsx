@@ -1,13 +1,13 @@
-import React from 'react';
-import Button from '@mui/material/Button';
+import React from 'react'
+import Button from '@mui/material/Button'
 
-import styles from './Header.module.scss';
-import Container from '@mui/material/Container';
+import styles from './Header.module.scss'
+import Container from '@mui/material/Container'
 
 export const Header = () => {
-  const isAuth = false;
+  const isAuth = false
 
-  const onClickLogout = () => {};
+  const onClickLogout = () => {}
 
   return (
     <div className={styles.root}>
@@ -22,7 +22,11 @@ export const Header = () => {
                 <a href="/posts/create">
                   <Button variant="contained">Написать статью</Button>
                 </a>
-                <Button onClick={onClickLogout} variant="contained" color="error">
+                <Button
+                  onClick={onClickLogout}
+                  variant="contained"
+                  color="error"
+                >
                   Выйти
                 </Button>
               </>
@@ -40,5 +44,5 @@ export const Header = () => {
         </div>
       </Container>
     </div>
-  );
-};
+  )
+}

@@ -1,7 +1,7 @@
-import Container from "@mui/material/Container";
+import Container from '@mui/material/Container'
 
-import { Header } from "./components";
-import { Home, FullPost, Registration, AddPost, Login } from "./pages";
+import { Header } from './components'
+import { Home, FullPost, Registration, AddPost, Login } from './pages'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         {/*<Registration />*/}
       </Container>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
